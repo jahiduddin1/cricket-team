@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap');
+body{
+    padding: 0 auto;
+    margin: 0 auto;
+    background-color: rgb(102, 93, 146);
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.banner{
+    display: flex;
+    height: 100vh;
+    
+}
+.banner-right img{
+    width: 90%;
+}
+.banner-right{
+    flex: 1;
+    display: flex;
+    align-items: center;
+
+}
+.banner-dtl{
+    flex: 1;
+    color: rgb(252, 252, 252);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner-title{
+    font-size: 60px;
+    white-space: nowrap;
+    position: relative;
+    color: transparent;
+}
+.banner-txt{
+    line-height: 2;
+    letter-spacing: 2px;
+}
+.banner-title::before{
+    content: 'My Cricket Team';
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #dcaa52;
+    animation: typing 5s linear infinite;
+}
+.dtl-btn{
+    outline: none;
+    font-size: 18px;
+    padding: 10px 30px;
+    background-color: #dcaa52;
+    color: rgb(0, 0, 0);
+    border: 4px solid #dcaa52;
+    cursor: pointer;
+}
+.dtl-btn:hover{
+    background: transparent;
+    color: aliceblue;
+    transition: .5s ease-out;
+}
+@keyframes typing {
+    0%{
+        content: 'M|';
+    }
+    2%{
+        content: 'M|';
+    }
+    6% {
+        content: 'My|';
+    }
+
+    8% {
+        content: 'My |';
+    }
+    
+    12% {
+        content: 'My C|';
+    }
+
+    16% {
+        content: 'My Cr|';
+    }
+
+    20% {
+        content: 'My Cri|';
+    }
+
+    24% {
+        content: 'My Cric';
+    }
+
+    28% {
+        content: 'My Crick|';
+    }
+
+    32% {
+        content: 'My Cricke|';
+    }
+
+    36% {
+        content: 'My Cricket|';
+    }
+
+    40% {
+        content: 'My Cricket |';
+    }
+
+    44% {
+        content: 'My Cricket T|';
+    }
+
+    48% {
+        content: 'My Cricket Te|';
+    }
+
+    52% {
+        content: 'My Cricket Tea|';
+    }
+
+    56% {
+        content: 'My Cricket Team|';
+    }
+    
+    60%,
+    82 {
+        content: 'My Cricket Team|';
+    }
+
+    83% {
+        content: 'My Cricket Tea|';
+    }
+
+    84% {
+        content: 'My Cricket Te|';
+    }
+
+    85% {
+        content: 'My Cricket |';
+    }
+
+    86% {
+        content: 'My Cricket|';
+    }
+    
+    87% {
+        content: 'My Cricke|';
+    }
+
+    88% {
+        content: 'My Crick|';
+    }
+    
+    89% {
+        content: 'My Cric|';
+    }
+    
+    90% {
+        content: 'My Cri|';
+    }
+    
+    91% {
+        content: 'My Cr|';
+    }
+    
+    92% {
+        content: 'My C|';
+    }
+    
+    93% {
+        content: 'My |';
+    }
+    
+    94% {
+        content: 'My|';
+    }
+    
+    95% {
+        content: 'M|';
+    }
+    
+    
+    96% {
+        content: '|';
+    }
+    
+    
+    97% {
+        content: '|';
+    }
+    
+    
+    98% {
+        content: '|';
+    }
+    99% {
+        content: '|';
+    }
+    100% {
+        content: '|';
+    }
+    
+    
+}
